@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+.bg {
+  background: linear-gradient(
+    245.44deg,
+    #57419d 62.59%,
+    rgba(87, 65, 157, 0) 225.11%
+  );
+  background-size: cover;
+  width: 100% !important;
+  height: 100vh !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 3px solid rgb(255, 255, 255);
+ 
+}
+
+h1 {
+  font-family: "Trebuchet MS";
+  color: white;
+  text-shadow: black 1px 1px 1px;
+  margin-top: 25%;
+  margin-left: 30%;
+  font-size: 60px;
+}
+.H1 {
+  font-family: "Anton";
+  color: white;
+  text-shadow: black 1px 1px 1px;
+  margin-top: -6%;
+  margin-left: 55%;
+  font-size: 60px;
+}
+.demo {
+  position: absolute;
+  width: 1350px;
+  height: 900px;
+  left: 500px;
+  top: 50px;
+  background: #ffffff;
+  border-radius: 22px;
+}
+
+.notification{
+
+  position: absolute;
+  width: 600px;
+  height: 140px;
+  left: 650px;
+  top: 130px;
+  
+  background: #57419D;
+  border-radius: 36px;
+
+
+}
+
+
+
+
+
+
+
+.iconbox{
+  position: relative;
+  width: 75px;
+  height: 75px;
+  left: 40px;
+  top: 40px;
+  background: url(../imagens/icon6.png);
+}
+.textperfil{
+position: relative;
+width: 326px;
+height: 53px;
+left: 80px;
+top: 20%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 44px;
+color: #57419D;
+}
+
+.textperfil1{
+  position: relative;
+  left: 655px;
+  
+}
+.textperfil2{
+  position: relative;
+  left: 700px;
+  top: 250px;
+
+}
+
+.box2 {
+  position: absolute;
+  width: 421px;
+  height: 452px;
+  left: 25px;
+  top: 500px;
+  background: #7967b1;
+  border-radius: 45px;
+}
+
+.icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: 15px;
+  top: 40px;
+  background: url(../imagens/icon1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon2 {
+  position: relative;
+  width: 53px;
+  height: 80px;
+  left: 15px;
+  top: 40px;
+  background: url(../imagens/icon2.png);
+}
+.icon3 {
+  position: relative;
+  width: 53px;
+  height: 80px;
+  left: 15px;
+  top: 40px;
+  background: url(../imagens/icon3.png);
+}
+.icon4 {
+  position: relative;
+  width: 53px;
+  height: 80px;
+  left: 15px;
+  top: 40px;
+  background: url(../imagens/icon4.png);
+}
+.icon5 {
+  position: relative;
+  width: 53px;
+  height: 80px;
+  left: 15px;
+  top: 40px;
+  background: url(../imagens/icon5.png);
+}
+.texticon {
+  position: absolute;
+  width: 184px;
+  height: 34px;
+  left: 60px;
+  top: 30px;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.texticon:hover {
+  color: #e1d553;
+  border-left: 30px solid #e1d553;
+}
+
+button{
+  text-decoration: none;
+  border: 0;
+}
+
+.card {
+  position: absolute;
+  width: 326px;
+  height: 53px;
+  left: 49px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 32px;
+  color: #fffafa;
+}
+.card1 {
+  position: absolute;
+  width: 326px;
+  height: 53px;
+  left: 49px;
+  top: 15%;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 15px;
+  color: #fffafa;
+  text-align: justify;
+}
+.btnposition {
+  margin-top: 50%;
+  margin-left: 11%;
+}
+.myButton {
+  box-shadow: 0px 10px 14px -7px #edf513;
+  background: linear-gradient(to bottom, #f7ff05 5%, #f0e513 100%);
+  background-color: #eaee8a;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #544f4f;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #f0e513 5%, #f7ff05 100%);
+  background-color: #f0e513;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.elipse1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  left: -200px;
+  top: 300px;
+  border: 1px solid #ffffff;
+  -moz-border-radius: 100%; 
+  -webkit-border-radius: 100%; 
+  border-radius: 100%;
+}
+.elipse2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  left: -200px;
+  top: 280px;
+  border: 1px solid #ffffff;
+  -moz-border-radius: 100%; 
+  -webkit-border-radius: 100%; 
+  border-radius: 100%;
+}
+
+.elipse3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  top: 90px;
+  border: 1px solid #fff9f9;
+  -moz-border-radius: 100%; 
+  -webkit-border-radius: 100%; 
+  border-radius: 100%;
+  left: 45%;
+}
+.elipse4 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  top: 50px;
+  border: 1px solid #ffffff;
+  -moz-border-radius: 100%; 
+  -webkit-border-radius: 100%; 
+  border-radius: 100%;
+  left: 40%;
+}
+.btn{
+  position: relative;
+  left: 40px;
+  top: 90px;
+}
+
+.imgposition{
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.myButton1 {
+  position: absolute;
+  left: 1000px;
+  top: 200px;
+  
+  box-shadow: 0px 10px 14px -7px #57419D;
+  background: linear-gradient(to bottom, #57419D 5%, #57419D 100%);
+  background-color: #eaee8a;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #544f4f;
+}
+.myButton1:hover {
+  background: linear-gradient(to bottom, #57419D 5%, #57419D 100%);
+  background-color: #57419D;
+}
+.myButton1:active {
+  position: relative;
+  top: 1px;
+}
